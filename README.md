@@ -1,6 +1,6 @@
 # MEMI-Schema
 
-面向制造业·产业互联网的全链路数据定义，Mall（电商）- ERP（资源规划与客户管理）- MES（生产编排） - IoT（设备与传感器物模型）。
+面向制造业·产业互联网的全链路数据定义，Mall（电商）- ERP（Enterprise Resource Planning, 资源规划与客户管理）- MES（Manufacturing Execution Systems, 生产编排） - IoT（设备与传感器物模型）。
 
 值得说明的是，MEMI-Schema 目前，也永远不能覆盖某个具体使用者的完整的场景，我们只是对全链路上的关键业务领域进行了建模。我们的初衷是遵照 [DDD](https://ngte-se.gitbook.io/i/ruan-jian-jia-gou-she-ji/ling-yu-qu-dong-she-ji) 的领域模型划分的理念，进行领域划分与建模；不过 DDD 本身就是强调业务与技术的沟通协作，因此 MEMI-Schema 只是可供借鉴的模板，而不能直接应用于某个具体的终端应用中。
 
