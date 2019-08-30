@@ -5,7 +5,13 @@
 值得说明的是，MEMI-Schema 目前，也永远不能覆盖某个具体使用者的完整的场景，我们只是对全链路上的关键业务领域进行了建模。我们的初衷是遵照 [DDD](https://ngte-se.gitbook.io/i/ruan-jian-jia-gou-she-ji/ling-yu-qu-dong-she-ji) 的领域模型划分的理念，进行领域划分与建模；不过 DDD 本身就是强调业务与技术的沟通协作，因此 MEMI-Schema 只是可供借鉴的模板，而不能直接应用于某个具体的终端应用中。
 
 
-# Home & More | 延伸阅读
+# About
+
+## Motivation & Credits
+
+- [工业互联网标准体系（版本2.0）](http://www.aii-alliance.org/index.php?m=content&c=index&a=show&catid=25&id=482)
+
+## Home & More | 延伸阅读
 
 ![](https://i.postimg.cc/59QVkFPq/image.png)
 
