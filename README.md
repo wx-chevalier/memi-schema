@@ -1,4 +1,4 @@
-![](https://imgchr.com/i/npbSRU)
+![MEMI](https://s2.ax1x.com/2019/09/01/npbSRU.png)
 
 # MEMI-Schema
 
