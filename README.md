@@ -1,3 +1,5 @@
+![](https://imgchr.com/i/npbSRU)
+
 # MEMI-Schema
 
 面向制造业·产业互联网的全链路数据定义，Mall（电商）- ERP（Enterprise Resource Planning, 资源规划与客户管理）- MES（Manufacturing Execution Systems, 生产编排） - IoT（设备与传感器物模型）。
@@ -24,15 +26,35 @@
 
 - 元信息表：
 
+## 域划分
+
+- 域划分
+
+![npTDdx.png](https://s2.ax1x.com/2019/09/01/npTDdx.png)
+
+- Common
+
+![npTro6.png](https://s2.ax1x.com/2019/09/01/npTro6.png)
+
+- Mall
+
+![npTyFK.png](https://s2.ax1x.com/2019/09/01/npTyFK.png)
+
+# 部署与使用
+
+## MySQL
+
+## 分库分表
+
 ## SDK
 
-## 关联数据
+MEMI 提供了 TS、Java 与 Go 等多种 API。
 
 # About
 
 ## Motivation & Credits
 
-- [工业互联网标准体系（版本2.0）](http://www.aii-alliance.org/index.php?m=content&c=index&a=show&catid=25&id=482)
+- [工业互联网标准体系（版本 2.0）](http://www.aii-alliance.org/index.php?m=content&c=index&a=show&catid=25&id=482)
 
 ## Home & More | 延伸阅读
 

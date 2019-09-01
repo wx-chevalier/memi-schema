@@ -1,6 +1,6 @@
 # mysql-mall-matrix
 
-mysql-mall-matrix 是笔者日常项目中总结的电商系统的表结构设计，详细讨论参考 [电商系统的结构设计 https://url.wx-coder.cn/EHTAg](https://url.wx-coder.cn/EHTAg)。
+mysql-mall-matrix 是笔者日常项目中总结的电商系统的表结构设计。
 
 # Deploy
 
