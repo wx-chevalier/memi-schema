@@ -1,0 +1,63 @@
+{
+  "name": "ufc-schema",
+  "version": "0.0.1",
+  "description": "ufc-schema",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wx-chevalier/fe-boilerplates"
+  },
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "types": "dist/types/index.d.ts",
+  "keywords": [
+    "webpack",
+    "react"
+  ],
+  "author": "wx-chevalier@github",
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "*.{ts,tsx,scss,less,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run build:es && npm run build:cjs && npm run build:umd",
+    "build:es": "tsc --project ./tsconfig.es.json",
+    "build:cjs": "tsc --project ./tsconfig.cjs.json",
+    "dev": "tsc -w --project ./tsconfig.cjs.json",
+    "build:umd": "webpack --config ./scripts/webpack/webpack.config.umd.js",
+    "test": "jest --config ./scripts/jest/jest.config.js",
+    "test:watch": "npm test -- --watch",
+    "test:cov": "npm run cleanCov && npm test -- --coverage"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-loader": "3.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "files": [
+    "dist/"
+  ]
+}
