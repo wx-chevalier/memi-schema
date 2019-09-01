@@ -4,6 +4,29 @@
 
 值得说明的是，MEMI-Schema 目前，也永远不能覆盖某个具体使用者的完整的场景，我们只是对全链路上的关键业务领域进行了建模。我们的初衷是遵照 [DDD](https://ngte-se.gitbook.io/i/ruan-jian-jia-gou-she-ji/ling-yu-qu-dong-she-ji) 的领域模型划分的理念，进行领域划分与建模；不过 DDD 本身就是强调业务与技术的沟通协作，因此 MEMI-Schema 只是可供借鉴的模板，而不能直接应用于某个具体的终端应用中。
 
+# 数据模型
+
+## 数据约束
+
+- 字段命名：
+
+- 主键：任一表中主键名为 id bigint(20)，存放 Snowflake 或其他等价数值型主键。
+
+- 时间类型字段：datetime 与 timestamp 在进行前后端交互时并不会存在国际化障碍，但是为了便于进行跨国家的数据单元化与数据合并，因此统一使用 timestamp 存放时间戳。
+
+- 行政区划字段：所有的地理相关字段命名为 area_code，存储其行政编码；详细的地理位置字段为 address。具体的行政区划数据可以参考：[china_regions](https://github.com/wecatch/china_regions), [china_area_mysql](https://github.com/kakuilan/china_area_mysql)。
+
+- 元信息字段：每张表中都存有 created_at, updated_at, deleted_at 三个元信息字段，所有涉及判断是否更新、是否删除的都会依据该信息。
+
+- 租户隔离字段：
+
+- 索引原则：
+
+- 元信息表：
+
+## SDK
+
+## 关联数据
 
 # About
 
