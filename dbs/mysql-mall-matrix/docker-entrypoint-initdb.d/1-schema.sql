@@ -1,17 +1,5 @@
 /*
- Navicat Premium Data Transfer
-
- Source Server         : UFC
- Source Server Type    : MySQL
- Source Server Version : 80017
- Source Host           : 47.102.101.28:13306
- Source Schema         : mall
-
- Target Server Type    : MySQL
- Target Server Version : 80017
- File Encoding         : 65001
-
- Date: 01/09/2019 18:13:48
+  UEMI MySQL Schema
 */
 
 SET NAMES utf8mb4;
