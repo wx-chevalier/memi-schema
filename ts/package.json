@@ -37,7 +37,7 @@
     "test:cov": "npm run cleanCov && npm test -- --coverage"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.13",
     "moment": "^2.24.0"
   },
   "devDependencies": {
