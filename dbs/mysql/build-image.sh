@@ -1,3 +1,3 @@
-IMAGE_NAME="mysql-mall-matrix"
+IMAGE_NAME="mysql-memi"
 
 docker build -t ${IMAGE_NAME}:latest -f ./Dockerfile .
